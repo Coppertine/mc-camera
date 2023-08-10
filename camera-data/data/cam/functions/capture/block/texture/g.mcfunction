@@ -1,4 +1,5 @@
 execute if block ~ ~ ~ gilded_blackstone run function cam:capture/block/texture/gilded_blackstone
+# TODO; Caustics...
 execute if block ~ ~ ~ glass run function cam:capture/block/texture/glass
 execute if block ~ ~ ~ glowstone run function cam:capture/block/texture/glowstone
 execute if block ~ ~ ~ gold_block run function cam:capture/block/texture/gold_block

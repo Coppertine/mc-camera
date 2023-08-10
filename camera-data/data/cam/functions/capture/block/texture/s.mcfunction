@@ -38,3 +38,5 @@ execute if block ~ ~ ~ stripped_spruce_wood run function cam:capture/block/textu
 execute if block ~ ~ ~ stripped_warped_hyphae run function cam:capture/block/texture/stripped_warped_hyphae
 execute if block ~ ~ ~ stripped_warped_stem run function cam:capture/block/texture/stripped_warped_stem
 execute if block ~ ~ ~ structure_block run function cam:capture/block/texture/structure_block
+
+# Add suspicous blocks here.
