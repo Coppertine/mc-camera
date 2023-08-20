@@ -22,5 +22,5 @@ execute if block ~ ~ ~ lime_wool run function cam:capture/block/texture/lime_woo
 execute if block ~ ~ ~ lodestone run function cam:capture/block/multi_side {"top":"lodestone_top","bottom":"lodestone_top","north":"lodestone_side","south":"lodestone_side","east":"lodestone_side","west":"lodestone_side"}
 execute if block ~ ~ ~ loom[facing=north] run function cam:capture/block/multi_side_facing {"top":"loom_top","bottom":"loom_bottom","side":"loom_side","front":"loom_front","facing":"0"}
 execute if block ~ ~ ~ loom[facing=south] run function cam:capture/block/multi_side_facing {"top":"loom_top","bottom":"loom_bottom","side":"loom_side","front":"loom_front","facing":"1"}
-execute if block ~ ~ ~ loom[facing=east] run function cam:capture/block/multi_side_facing {"top":"loom_top","bottom":"loom_bottom","side":"loom_side","front":"loom_front","facing":"2"}
-execute if block ~ ~ ~ loom[facing=west] run function cam:capture/block/multi_side_facing {"top":"loom_top","bottom":"loom_bottom","side":"loom_side","front":"loom_front","facing":"3"}
+execute if block ~ ~ ~ loom[facing=west] run function cam:capture/block/multi_side_facing {"top":"loom_top","bottom":"loom_bottom","side":"loom_side","front":"loom_front","facing":"2"}
+execute if block ~ ~ ~ loom[facing=east] run function cam:capture/block/multi_side_facing {"top":"loom_top","bottom":"loom_bottom","side":"loom_side","front":"loom_front","facing":"3"}
